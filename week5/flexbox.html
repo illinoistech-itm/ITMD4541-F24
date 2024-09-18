@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: red;
+            height: 100px;
+        }
+        footer {
+            background-color: grey;
+            height: 100px;
+        }
+        nav {
+            background-color: black;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        .body-wrapper {
+            display: flex;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .col1 {
+            width: 60%;
+            background-color: aquamarine;
+        }
+        .col2 {
+            width: 40%;
+            background-color: bisque;
+        }
+        .full-height {
+            height: 100vh;
+            background-color: green;
+        }
+        .vcenter {
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Site Header</header>
+    <nav>
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </nav>
+    <section id="main-body">
+        <div class="body-wrapper">
+            <div class="col1">Col 1</div>
+            <div class="col2">Col 2</div>
+        </div>
+    </section>
+    <section class="full-height">
+        <h2>Second Section</h2>
+    </section>
+    <section class="full-height vcenter">
+        <h2>Third Section</h2>
+    </section>
+    <footer>Site Footer</footer>
+</body>
+</html>

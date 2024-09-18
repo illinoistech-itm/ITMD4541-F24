@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: red;
+            height: 150px;
+        }
+        nav {
+            background-color: #777;
+        }
+        main {
+            background-color: yellow;
+        }
+        section {
+            background-color: #ccc;
+            overflow: auto;
+        }
+        footer {
+            background-color: purple;
+            height: 150px;
+        }
+
+        nav ul {
+   margin: 0;
+   padding:0;
+   list-style:none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 10px;
+}
+
+nav ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    background-color: #555;
+    color: #fff;
+    padding: 15px 25px;
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #aaa;
+    color: #000;
+}
+    </style>
+</head>
+<body>
+    <header>Header here</header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Section 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque sunt cum dignissimos culpa voluptatem ad dolorem velit? Blanditiis nihil repudiandae sunt tenetur corporis animi molestiae provident voluptate doloribus nobis!</p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, exercitationem iste laudantium molestias veniam unde amet nostrum in cumque asperiores eos eaque. Debitis nulla iure error libero recusandae eum temporibus!</p>
+        </section>
+        <section>
+            <h2>Section 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit saepe deserunt voluptatibus tenetur id ut autem voluptate dolores, facilis, ipsa ducimus molestias veniam? Officiis, ullam. Ducimus at laudantium neque consequatur.</p>
+        </section>
+    </main>
+    <footer>Footer here</footer>
+</body>
+</html>

@@ -12,7 +12,7 @@
 <body class="bg-gray-100 font-sans">
     <header class="bg-blue-600 text-white p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Stellar Marketing</h1>
+            <div class="text-2xl font-bold">Stellar Marketing</div>
             <nav>
                 <ul class="flex space-x-4">
                     <li><a href="#services" class="hover:text-blue-200">Services</a></li>
@@ -25,12 +25,13 @@
 
     <main class="">
         <section id="hero" class="text-center mb-12 py-60 relative bg-cover">
-            <h2 class="text-4xl font-bold mb-4 text-white relative z-20">Elevate Your Brand with Stellar Marketing</h2>
+            <h1 class="text-4xl font-bold mb-4 text-white relative z-20">Elevate Your Brand with Stellar Marketing</h1>
             <p class="text-xl mb-6 text-white relative z-20">We create innovative marketing strategies to help your business shine.</p>
             <a href="#contact" class="relative bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 z-20">Get Started</a>
         </section>
 
-        <section id="services" class="mb-12 container mx-auto">
+        <section id="services" class="mb-12 px-6">
+            <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-6">Our Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="bg-white p-6 rounded shadow items-center flex flex-col">
@@ -53,31 +54,35 @@ brand_awareness
                     <p class="text-center">Engage your customers and grow your following with our expert social media strategies.</p>
                 </div>
             </div>
+        </div>
         </section>
 
-        <section id="portfolio" class="mb-12 container mx-auto">
-            <h2 class="text-3xl font-bold mb-6">Our Marketing Specialities</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <section id="portfolio" class="mb-12 px-6">
+            <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Speicalized Marketing Solutions For</h2>
+            <div data-section="product_cards" class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="relative product_card rounded-lg overflow-hidden">
-                    <img src="https://picsum.photos/id/30/400/300" alt="Project 1" class="w-full h-auto">
-                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Products</h3>
+                    <img src="https://picsum.photos/id/163/400/300" alt="Project 1" class="w-full h-auto">
+                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Restaurants</h3>
                 </div>
                 <div class="relative product_card rounded-lg overflow-hidden">
                     <img src="https://picsum.photos/id/91/400/300" alt="Project 2" class="w-full h-auto">
-                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Photography</h3>
+                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Photographers</h3>
                 </div>
                 <div class="relative product_card rounded-lg overflow-hidden">
                     <img src="https://picsum.photos/id/585/400/300" alt="Project 3" class="w-full h-auto">
-                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Sports</h3>
+                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Sports Teams</h3>
                 </div>
                 <div class="relative product_card rounded-lg overflow-hidden">
-                    <img src="https://picsum.photos/id/743/400/300" alt="Project 4" class="w-full h-auto">
-                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Architecture</h3>
+                    <img src="https://picsum.photos/id/145/400/300" alt="Project 4" class="w-full h-auto">
+                    <h3 class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-2 py-6 w-full text-center text-2xl">Musicians</h3>
                 </div>
             </div>
+        </div>
         </section>
 
-        <section id="contact" class="bg-white p-6 rounded shadow container mx-auto">
+        <section id="contact" class="bg-white p-6 rounded shadow px-6">
+            <div class="container mx-auto">
             <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
             <form>
                 <div class="mb-4">
@@ -94,6 +99,7 @@ brand_awareness
                 </div>
                 <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send</button>
             </form>
+        </div>
         </section>
     </main>
 

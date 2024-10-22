@@ -1,1 +1,1 @@
-(()=>{(function(){console.log("app.js loaded")})();})();
+(()=>{(function(){console.log("main.js loaded")})();})();

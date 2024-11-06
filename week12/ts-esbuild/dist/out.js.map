@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/add.ts", "../src/main.ts"],
+  "sourcesContent": ["interface Point {\n    x: number;\n    y: number;\n}\n\nfunction add(x: number, y: number): number {\n    return x + y;\n}\n\nfunction sum(...numbers: number[]): number {\n    return numbers.reduce((total, n) => total + n, 0);\n}\n\nfunction createPoint(x: number = 0, y: number = 0): Point {\n    return { x, y };\n}\n\nexport { add, sum, createPoint };\n", "import { add, sum, createPoint } from \"./add\";\n\nconsole.log('Add: ', add(1, 2)); // 3\n\nconsole.log('Sum: ', sum(1, 2, 3, 4)); // 10\n\nlet x = createPoint(10, 20);\n\nconsole.log('Point: ', x); // Point: { x: 10, y: 20 }"],
+  "mappings": "MAKA,SAASA,EAAIC,EAAWC,EAAmB,CACvC,OAAOD,EAAIC,CACf,CAEA,SAASC,KAAOC,EAA2B,CACvC,OAAOA,EAAQ,OAAO,CAACC,EAAOC,IAAMD,EAAQC,EAAG,CAAC,CACpD,CAEA,SAASC,EAAYN,EAAY,EAAGC,EAAY,EAAU,CACtD,MAAO,CAAE,EAAAD,EAAG,EAAAC,CAAE,CAClB,CCbA,QAAQ,IAAI,QAASM,EAAI,EAAG,CAAC,CAAC,EAE9B,QAAQ,IAAI,QAASC,EAAI,EAAG,EAAG,EAAG,CAAC,CAAC,EAEpC,IAAIC,EAAIC,EAAY,GAAI,EAAE,EAE1B,QAAQ,IAAI,UAAWD,CAAC",
+  "names": ["add", "x", "y", "sum", "numbers", "total", "n", "createPoint", "add", "sum", "x", "createPoint"]
+}

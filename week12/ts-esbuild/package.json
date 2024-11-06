@@ -1,0 +1,19 @@
+{
+  "name": "ts-esbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cp": "cp ./src/index.html ./dist/index.html",
+    "build": "esbuild ./src/main.ts --outfile=./dist/out.js --bundle --sourcemap --target=chrome58,firefox57,safari11,edge16",
+    "bundle": "esbuild ./src/main.ts --outfile=./dist/out.js --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16",
+    "start": "http-server ./dist -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "http-server": "^14.1.1"
+  }
+}

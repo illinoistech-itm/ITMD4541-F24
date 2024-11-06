@@ -1,0 +1,18 @@
+{
+  "name": "basic-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./src/*.ts --target esnext --outDir ./dist",
+    "tsc": "tsc",
+    "start": "http-server ./dist -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.6.3"
+  }
+}
